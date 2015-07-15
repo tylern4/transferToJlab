@@ -113,4 +113,4 @@ declare -x VISUAL="vi"
 declare -x XPM="/apps/xpm"
 declare -x hostOS="Linux"
 
-/group/clas/builds/bin/nt10maker -ooutfile.hbook infile.B00
+/group/clas/builds/bin/nt10maker -t1 -ooutfile.hbook infile.B00
