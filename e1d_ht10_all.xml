@@ -8,7 +8,7 @@
   <TimeLimit unit="minutes" time="10"/>
 
   <Command><![CDATA[
-    /home/tylern/bosToHbook.sh
+    /home/tylern/e1d_nt10.sh
   ]]></Command>
 
   <List name="files">
