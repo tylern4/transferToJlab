@@ -14,7 +14,7 @@ source /group/clas/builds/environment.sh
 
 #set up ROOT:
 #source /work/clas/clase1-6/ghollis/root/bin/thisroot.sh
-export ROOTSYS=/apps/root/5.34.00/root
+export ROOTSYS=/apps/root/5.34.21/root
 export ROOTLIB=$ROOTSYS/lib
 source $ROOTSYS/bin/thisroot.sh
 
