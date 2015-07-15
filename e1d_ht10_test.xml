@@ -12,17 +12,17 @@
   ]]></Command>
 
   <List name="files">
-r22848_00.B00
-r22848_11.B00
-r22853_00.B00
-r22853_01.B00
-r22853_02.B00
+r22848_00
+r22848_11
+r22853_00
+r22853_01
+r22853_02
   </List>
 
   <ForEach list="files">
     <Job>
-      <Input src="mss:/mss/clas/e1d/production/pass2/v2/data/${files}" dest="infile.B00"/>
-      <Output src="outfile.hbook" dest="/volatile/clas/clase1/tylern/e1d_hbook/${files}.skim" />
+      <Input src="mss:/mss/clas/e1d/production/pass2/v2/data/${files}.B00" dest="infile.B00"/>
+      <Output src="outfile.hbook" dest="/volatile/clas/clase1/tylern/e1d_hbook/${files}.hbook" />
       <Stdout dest="/home/tylern/batch_log_files/${files}.stdout" />
       <Stderr dest="/home/tylern/batch_log_files/${files}.stderr" />
     </Job>
