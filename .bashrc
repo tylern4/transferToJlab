@@ -11,7 +11,7 @@
 #PS1='[\u@\h]<$(date +%r)>{\W}\n$ '
 #PS1='[\u@\h $(date +%r)]$ '
 #PS1='jlab> '
-export PS1="[\[$(tput sgr0)\]\[\033[38;5;33m\]\H\[$(tput sgr0)\]\[\033[38;5;15m\]:\[$(tput sgr0)\]\[\033[38;5;202m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]]\[$(tput sgr0)\]\[\033[38;5;40m\]\\$ \[$(tput sgr0)\]"
+export PS1="[\[$(tput sgr0)\]\[\033[38;5;33m\]\H\[$(tput sgr0)\]\[\033[38;5;15m\]:\[$(tput sgr0)\]\[\033[38;5;202m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]]\[$(tput sgr0)\]\[\033[38;5;40m\]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
 #
 #Here's a prompt for root, it has a red # symbol to alert you
 #that you are running as root:
